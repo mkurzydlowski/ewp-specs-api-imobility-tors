@@ -77,21 +77,21 @@
                                          3. Because we don't want to introduce a competing ToR format unless we have
                                             to. It seems better to promote existing formats.
                                          4. Because *some* clients might still make some use of the features which we
-                                            might otherwise deem unnecessary (e.g. PDF attachments).
+                                            might otherwise deem unnecessary (e.g., PDF attachments).
 
                                         ## Cross-referencing IDs
 
                                         EMREX ELMO allows implementers to attach an unlimited number of identifiers
-                                        to many of its elements. In order to facilitate cross-referencing, we need to
+                                        to many of its elements. To facilitate cross-referencing, we need to
                                         assign some explicit values for the `type` attribute used in the `identifier`
                                         elements:
 
                                         * In the `issuer` element, you SHOULD use the "schac" identifier type to refer
-                                          to EWP's HEI IDs. E.g. &lt;identifier type="schac"&gt;uw.edu.pl&lt;/identifier&gt;
+                                          to EWP's HEI IDs. E.g., &lt;identifier type="schac"&gt;uw.edu.pl&lt;/identifier&gt;
                                           https://github.com/erasmus-without-paper/ewp-specs-api-registry/#schac-identifiers
 
                                         * In the `learner` element, you MUST use the "esi" identifier type to refer
-                                          to the learner. E.g. &lt;identifier type="esi"&gt;urn:schac:personalUniqueCode:int:esi:uio.no:1234567890&lt;/identifier&gt;
+                                          to the learner. E.g., &lt;identifier type="esi"&gt;urn:schac:personalUniqueCode:int:esi:uio.no:1234567890&lt;/identifier&gt;
                                           More about European Student Identifier: https://wiki.geant.org/display/SM/European+Student+Identifier
                                         
                                         * In the `learningOpportunitySpecification` elements, you SHOULD use the
