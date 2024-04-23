@@ -86,7 +86,7 @@
                                         assign some explicit values for the `type` attribute used in the `identifier`
                                         elements:
 
-                                        * In the `issuer` element, you SHOULD use the "schac" identifier type to refer
+                                        * In the `issuer` element, you MUST use the "schac" identifier type to refer
                                           to EWP's HEI IDs. E.g., &lt;identifier type="schac"&gt;uw.edu.pl&lt;/identifier&gt;
                                           https://github.com/erasmus-without-paper/ewp-specs-api-registry/#schac-identifiers
 
