@@ -42,10 +42,10 @@ Only selected Transcripts of Records should be accessible to the caller:
 
  * All other callers SHOULD NOT be allowed to view the ToR.
 
- * Note, that servers will need to verify these access rights for each ID on
+ * Note that servers will need to verify these access rights for each ID on
    the `omobility_id` list. It is possible that the caller has access to only
-   some of the mobilities. (If this seems problematic, then you can always
-   simply set your `<max-omobility-ids>` to `1`.)
+   some mobilities. (If this seems problematic, then you can always
+   set your `<max-omobility-ids>` to `1`.)
 
 
 Endpoints to be implemented
