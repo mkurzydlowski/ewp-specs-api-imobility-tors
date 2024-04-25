@@ -104,6 +104,7 @@
                                         * In the `learningOpportunityInstance` elements, you:
                                           - MUST use the "ewp-loi-id" identifier type to refer to LOI IDs introduced in EWP's Courses
                                             API: https://github.com/erasmus-without-paper/ewp-specs-api-courses#unique-identifiers,
+                                          - MUST provide the `academicTerm` subelement,
                                           - MUST provide the `credit` subelement with `ects` in the `scheme`,
                                           - MUST provide the `resultLabel` subelement,
                                           - MUST provide the `resultDistribution` subelement.
