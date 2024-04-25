@@ -94,11 +94,11 @@
                                           to the learner. E.g., &lt;identifier type="esi"&gt;urn:schac:personalUniqueCode:int:esi:uio.no:1234567890&lt;/identifier&gt;
                                           More about European Student Identifier: https://wiki.geant.org/display/SM/European+Student+Identifier
                                         
-                                        * In the `learningOpportunitySpecification` elements, you SHOULD use the
+                                        * In the `learningOpportunitySpecification` elements, you MUST use the
                                           "ewp-los-id" identifier type to refer to LOS IDs introduced in EWP's Courses
                                           API: https://github.com/erasmus-without-paper/ewp-specs-api-courses#unique-identifiers
 
-                                        * In the `learningOpportunityInstance` elements, you SHOULD use the
+                                        * In the `learningOpportunityInstance` elements, you MUST use the
                                           "ewp-loi-id" identifier type to refer to LOI IDs introduced in EWP's Courses
                                           API: https://github.com/erasmus-without-paper/ewp-specs-api-courses#unique-identifiers
 
