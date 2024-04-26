@@ -14,6 +14,15 @@ institution to retrieve Transcripts of Records issued by the receiving
 institution for a given set of mobility IDs.
 
 
+### Business requirements and processes
+
+
+[Business requirements and processes](resources/mandatory_business_requirements_TOR.pdf)
+document clarifies the requirements for the technical solutions
+developed under EWP and in the local implementation that should adequately support
+the business processes related to ToRs at Higher Education Institutions.
+
+
 Security and permissions
 ------------------------
 
