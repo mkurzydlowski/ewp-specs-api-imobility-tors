@@ -10,7 +10,7 @@
     <tor>
         <omobility-id>b1ab0888-a5ce-45e8-8c51-e3c6f677b58f</omobility-id>
         <receiving-academic-year-id>2014/2015</receiving-academic-year-id>
-        <elmo xmlns="https://github.com/emrex-eu/elmo-schemas/tree/v1">
+        <elmo xmlns="https://github.com/emrex-eu/elmo-schemas/tree/v2">
             <generatedDate>2015-10-31T12:00:00+02:00</generatedDate>
             <learner>
                 <citizenship>PL</citizenship>
@@ -18,7 +18,8 @@
                 <identifier type="esi">urn:schac:personalUniqueCode:int:esi:uio.no:1234567890</identifier>
                 <givenNames>Jan Łukasz</givenNames>
                 <familyName>Kowalski</familyName>
-                <bday>1983-01-01</bday>
+                <alternativeName>Jan Łukasz Kowalski</alternativeName>
+                <dateOfBirth>1983-01-01</dateOfBirth>
             </learner>
             <report>
                 <issuer>

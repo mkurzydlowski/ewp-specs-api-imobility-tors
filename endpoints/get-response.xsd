@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:emrex="https://github.com/emrex-eu/elmo-schemas/tree/v1"
+    xmlns:emrex="https://github.com/emrex-eu/elmo-schemas/tree/v2"
     xmlns:ewp="https://github.com/erasmus-without-paper/ewp-specs-architecture/blob/stable-v1/common-types.xsd"
     xmlns:trm="https://github.com/erasmus-without-paper/ewp-specs-types-academic-term/tree/stable-v2"
     elementFormDefault="qualified"
@@ -15,8 +15,8 @@
     />
 
     <xs:import
-        schemaLocation="https://raw.githubusercontent.com/emrex-eu/elmo-schemas/v1/schema.xsd"
-        namespace="https://github.com/emrex-eu/elmo-schemas/tree/v1"
+        schemaLocation="https://raw.githubusercontent.com/emrex-eu/elmo-schemas/v2/schema.xsd"
+        namespace="https://github.com/emrex-eu/elmo-schemas/tree/v2"
     />
 
     <xs:import
